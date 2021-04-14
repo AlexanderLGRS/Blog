@@ -5,7 +5,7 @@
 }
 html {
   font-size: 62.5%;
-  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Comic Neue', cursive;
 }
 body{
     position: fixed;
@@ -24,7 +24,8 @@ header {
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: rgb(72, 207, 173);
+  /* background-color: rgb(72, 207, 173); */
+  background-color: #2d2d35;
 }
 .sectionOne--socialNetworks {
   width: 100%;
@@ -70,10 +71,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 .sectionTwo img {
-  height: 60%;
+  height: 50%;
 }
 .sectionTwo a{
     font-weight: bold;
@@ -95,7 +96,7 @@ main p{
     width: 90%;
     height: auto;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     margin-top: 200px;
     color: white;
@@ -105,15 +106,14 @@ main a{
     width: 200px;
     height: 50px;
     border-radius: 20px;
-    background-color: rgb(72, 207, 173);
+    background-color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #2d2d35;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 0 0 56px black; */
 }
 @media only screen and (min-width: 600px) {
     .sectionOne--socialNetworks {
