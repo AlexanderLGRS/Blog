@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: 'Comic Neue', cursive;
+  }
+  header {
+    width: 100vw;
+    height: 140px;
+  }
+  .sectionOne {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* background-color: rgb(72, 207, 173); */
+    background-color: #2d2d35;
+  }
+  .sectionOne--socialNetworks {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  .sectionOne--socialNetworks--github {
+    background-image: url("../assets/icons/github.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+  }
+  .sectionOne--socialNetworks--instagram {
+    background-image: url("../assets/icons/instagram.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+  }
+  .sectionOne--socialNetworks--twitter {
+    background-image: url("../assets/icons/twitter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+  }
+  .sectionOne--socialNetworks--linkedin {
+    background-image: url("../assets/icons/linkedin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+  }
+  .sectionTwo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .sectionTwo img {
+    height: 50%;
+  }
+  .sectionTwo a{
+      font-weight: bold;
+      color: black;
+      font-size: 1.8rem;
+  }
+.cards-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y proximity;
+    background-image: url("https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?cs=srgb&dl=pexels-lukas-rychvalsky-670720.jpg&fm=jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(16, 100px);
+    grid-template-areas: 
+    ". card1 card1 card1 card1 card1 . ."
+    ". card1 card1 card1 card1 card1 . ."
+    ". card1 card1 card1 card1 card1 . ."
+    ". . . . . . . ."
+    ". . card2 card2 card2 card2 card2 ."
+    ". . card2 card2 card2 card2 card2 ."
+    ". . card2 card2 card2 card2 card2 ."
+    ". . . . . . . ."
+    ". card3 card3 card3 card3 card3 . ."
+    ". card3 card3 card3 card3 card3 . ."
+    ". card3 card3 card3 card3 card3 . ."
+    ". . . . . . . ."
+    ". . card4 card4 card4 card4 card4 ."
+    ". . card4 card4 card4 card4 card4 ."
+    ". . card4 card4 card4 card4 card4 ."
+    ". . . . . . . .";
+}
+.cards-container{
+    padding: 10px 10px;
+}
+.cards-container .card{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(26, 24, 24, 0.884);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+.cards-container .card--title{
+    font-size: 25px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.cards-container .card--text{
+    font-size: 15px;
+    align-self: center;
+    padding: 0 10px;
+}
+.cards-container .card--img{
+    width: 50px;
+    height: 50px;
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
