@@ -71,7 +71,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 20px;
-  background-color: #9caec2d7;
 }
 .sectionTwo img {
   height: 60%;
@@ -84,7 +83,7 @@ header {
 main{
     width: 100vw;
     height: 100vh;
-    background-image: url("https://images.pexels.com/photos/6612383/pexels-photo-6612383.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-6612383.jpg&fm=jpg");
+    background-image: url("https://images.pexels.com/photos/2646237/pexels-photo-2646237.jpeg?cs=srgb&dl=pexels-dexter-fernandes-2646237.jpg&fm=jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,6 +98,7 @@ main p{
     font-weight: bold;
     text-align: center;
     margin-top: 200px;
+    color: white;
 }
 main a{
     margin-top: 120px;
