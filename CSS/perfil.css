@@ -76,11 +76,10 @@
   }
 .cards-container{
     width: 100vw;
-    height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
-  overscroll-behavior-y: contain;
-  scroll-snap-type: y proximity;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y proximity;
     background-image: url("https://images.pexels.com/photos/670720/pexels-photo-670720.jpeg?cs=srgb&dl=pexels-lukas-rychvalsky-670720.jpg&fm=jpg");
     background-position: center;
     background-repeat: no-repeat;
