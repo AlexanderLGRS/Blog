@@ -73,8 +73,12 @@ header {
   align-items: center;
   padding: 0 20px;
 }
+.sectionTwo .logo-container{
+  width: 137px;
+  height: 50px;
+}
 .sectionTwo img {
-  height: 50%;
+  height: 100%;
 }
 .sectionTwo a{
     font-weight: bold;

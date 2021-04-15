@@ -68,17 +68,12 @@
     align-items: center;
     padding: 0 20px;
   }
-  .sectionTwo a{
+  .sectionTwo .logo-container{
     width: 137px;
     height: 50px;
   }
-  .sectionTwo img {
+  .sectionTwo .logo-container img {
     height: 100%;
-  }
-  .sectionTwo a {
-      font-weight: bold;
-      color: black;
-      font-size: 1.8rem;
   }
   main{
     height: auto;
