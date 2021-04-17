@@ -84,6 +84,7 @@ header {
 
 :root {
   --black-transparent: #2d2d35b6;
+  --black: #2d2d35;
 }
 .principal-container {
   width: 100vw;
@@ -135,7 +136,7 @@ p {
 .secondary-post-container {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 150px;
+  padding-bottom: 300px;
 }
 .secondary-post {
   width: 300px;
@@ -167,4 +168,17 @@ h1, p{
   border: 1px solid white;
   border-radius: 10px;
   text-decoration: none;
+}
+footer{
+  width: 100vw;
+  height: 70px;
+  font-size: 15px;
+  background-color: var(--black);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
